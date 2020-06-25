@@ -2,7 +2,7 @@
 $pdo = getPdo();
 
 
-// On fait quand même gaffe à ce que le gars n'essaye pas des balises cheloues dans son article et son titre
+// On fait quand même gaffe à ce que le gars n'essaye pas des balises cheloues dans son article ou son titre
 $login = htmlspecialchars($_POST["login"]);
 $password = htmlspecialchars($_POST["password"]);
 
