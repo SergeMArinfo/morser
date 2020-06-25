@@ -1,5 +1,5 @@
 <?php
-
+// connexion a la base de données morser
 function getPdo(): PDO
 {
     $pdo = new PDO('mysql:host=localhost;dbname=morser;charset=utf8', 'root', 'root', [
